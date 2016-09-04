@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <title>YBBP</title>
+    <script src='https://api.mapbox.com/mapbox.js/v2.2.3/mapbox.js'></script>
+    <link href='https://api.mapbox.com/mapbox.js/v2.2.3/mapbox.css' rel='stylesheet' />
+    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic'
+          rel='stylesheet' type='text/css'>
+       
+    
+
+</head>
+<body>
+<header class="page__header">
+    <div class="logo">
+        <a href=""><img src="img/logo.png" srcset="img/logo.png 2x" alt=""></a>
+    </div>
+    <div class="menu">
+        <i class="menu__line menu__line-1"></i>
+        <i class="menu__line menu__line-2"></i>
+        <i class="menu__line menu__line-3"></i>
+    </div>
+</header>
+
+<div id="root" data-lang="en" data-mode="work" data-item="index" data-version="5.9">
+
+
+    <div class="page__frame">
+
+        <!-- Works -->
+        <div class="works-wrapper ">
+
+            <div class="works">
+
+                <div class="works__item works__item_first" data-name="index"
+                     style="z-index: 100; opacity: 1; transform: translateX(0%); display: block;">
+                    <div class="work__item__content">
+
+                        <div class="page">
+                            <!-- <img src="img/bg-home-1.jpg" alt="" class="page__bg"> -->
+                            <!-- Page header begin -->
+                            <div class="page__wrap">
+                                <div class="home-screen">
+                                <span class="drag-icon">Drag for more</span>
+
+                                <!-- Page header end -->
+                                <!-- Main begin -->
+                                <div>
+
+                                </div>
+                                <!-- Main end -->
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="works__item works__item_inner works__item_next" data-name="tour"
+                     style="z-index: 99; opacity: 0.33; transform: translateX(110%);">
+                    <div class="page page--tour">
+                        <video class="video_bg" poster="img/bg-home-2.jpg" autoplay="autoplay" loop="loop">
+                            <source src="img/Bike.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                        </video>
+                        <!-- <img src="img/bg-home-2.jpg" alt="" class="page__bg"> -->
+                        <div class="inner-screen__pager">
+                            <div class="inner-screen__pager-item active"></div>
+                            <div class="inner-screen__pager-item"></div>
+                            <div class="inner-screen__pager-item"></div>
+                            <div class="inner-screen__pager-item"></div>
+                        </div>
+                        <!-- Page header begin -->
+                        <div class="page__wrap">
+                            <!-- Page header end -->
+                            <!-- Main begin -->
+                            <div class="home-screen">
+                
+                
+                        <div id="map"></div>
+                                <div class="promo">
+                                    <h1 class="promo__title">Tour de<br><span>France</span></h1>
+                                    <p class="promo__text">Voor de stichting Grand Départ nam YBBP <br>het projectmanagement van de <br>People Villages op Zich</p>
+                                    <a href="" class="btn promo__link"><span><span>Lees meer</span></span></a>
+                                </div>
+
+                            </div>
+                            <!-- Main end -->
+
+                            <!-- Main begin -->
+                            <div class="inner-screen inner-screen--tour1">
+
+                                <div class="promo">
+                                    <h1 class="promo__title">What we did</h1>
+                                    <p class="promo__text">Tijdens de Grand Départ van de Tour de France in Rotterdam op 1 t/m 4 juli 2010 organiseerde YBBP in samenwerking met Shivers en JMR de People Villages.</p>
+                                    <p class="promo__text">Op drie verschillende locaties in de stad werden er gratis en laagdrempelige publieksevenementen georganiseerd, met als doel burgers en ondernemers actief bij het evenement te betrekken en meer sfeer en beleving in de stad te creëren. </p>
+                                </div>
+                                <a href="#secondSlide" class="scroll-icon"><span ></span></a>
+
+
+                            </div>
+                            <div id="secondSlide" class="inner-screen inner-screen--video">
+                                <h1 class="video-screen__title">See it for yourself</h1>
+
+                                <div class="video-screen">
+                                    <div class="video-screen-wrap">
+                                        <video id="video" controls="controls" >
+                                            <!-- poster="img/bg-video.jpg" -->
+                                            <source src="img/warm.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+
+                                            Тег video не поддерживается вашим браузером.
+
+                                        </video>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="inner-screen inner-screen--tour1">
+
+                                <div class="promo">
+                                    <h1 class="promo__title">What we did</h1>
+                                    <p class="promo__text">Tijdens de Grand Départ van de Tour de France in Rotterdam op 1 t/m 4 juli 2010 organiseerde YBBP in samenwerking met Shivers en JMR de People Villages.</p>
+                                    <p class="promo__text">Op drie verschillende locaties in de stad werden er gratis en laagdrempelige publieksevenementen georganiseerd, met als doel burgers en ondernemers actief bij het evenement te betrekken en meer sfeer en beleving in de stad te creëren. </p>
+                                </div>
+                                <a href="#secondSlide" class="scroll-icon"><span ></span></a>
+
+
+                            </div>
+                            <div class="inner-screen inner-screen--video">
+                                <h1 class="video-screen__title">See it for yourself</h1>
+
+                                <div class="video-screen">
+                                    <div class="video-screen-wrap">
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <!-- Main end -->
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+            <div class="works__item works__item_inner works__item_next" data-name="baseball"
+                 style="z-index: 97; opacity: 0.33; transform: translateX(110%);">
+                <div class="work__item__content">
+
+                    <div class="page page--baseball">
+                        <video class="video_bg" poster="img/bg-baseball-s1.jpg" autoplay="autoplay" loop="loop">
+                            <source src="img/Baseball.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                        </video>
+                        <!-- <img src="img/bg-home-2.jpg" alt="" class="page__bg"> -->
+                        <div class="inner-screen__pager">
+                            <div class="inner-screen__pager-item active"></div>
+                            <div class="inner-screen__pager-item"></div>
+                        </div>
+                        <!-- Page header begin -->
+                        <div class="page__wrap">
+                            <!-- Page header end -->
+                            <!-- Main begin -->
+                            <div class="home-screen">
+
+                                <div class="promo">
+                                    <h1 class="promo__title">Major league<br><span>baseball</span></h1>
+
+                                    <p class="promo__text">In opdracht van de gemeente Haarlemmermeer<br> realiseert
+                                        YBBP een bid op 3 MLB wedstrijden</p>
+                                    <a href="" class="btn promo__link"><span><span>Lees meer</span></span></a>
+                                </div>
+
+                            </div>
+                            <!-- Main end -->
+                            <!-- Main begin -->
+                            <div class="inner-screen inner-screen--tour1">
+
+                                <div class="promo">
+                                    <h1 class="promo__title">What we did</h1>
+                                    <p class="promo__text">Tijdens de Grand Départ van de Tour de France in Rotterdam op 1 t/m 4 juli 2010 organiseerde YBBP in samenwerking met Shivers en JMR de People Villages.</p>
+                                    <p class="promo__text">Op drie verschillende locaties in de stad werden er gratis en laagdrempelige publieksevenementen georganiseerd, met als doel burgers en ondernemers actief bij het evenement te betrekken en meer sfeer en beleving in de stad te creëren. </p>
+                                </div>
+                                <a href="#secondSlide" class="scroll-icon"><span ></span></a>
+
+
+
+                            </div>
+                            <div class="inner-screen inner-screen--video">
+                                <h1 class="video-screen__title">See it for yourself</h1>
+
+                                <div class="video-screen">
+                                    <div class="video-screen-wrap">
+                                        <video id="video1" controls="controls" >
+                                            <!-- poster="img/bg-video.jpg" -->
+                                            <source src="img/warm.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+
+                                            Тег video не поддерживается вашим браузером.
+
+                                        </video>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <!-- Main end -->
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="works__item works__item_inner works__item_next" data-name="volleyball"
+                 style="z-index: 96; opacity: 0.33; transform: translateX(110%);">
+                <div class="work__item__content">
+
+
+                    <div class="page page--volleyball">
+                        <!-- <img src="img/bg-home-2.jpg" alt="" class="page__bg"> -->
+                        <div class="inner-screen__pager">
+                            <div class="inner-screen__pager-item active"></div>
+                            <div class="inner-screen__pager-item"></div>
+                        </div>
+                        <!-- Page header begin -->
+                        <div class="page__wrap">
+                            <!-- Page header end -->
+                            <!-- Main begin -->
+                            <div class="home-screen">
+
+                                <div class="promo">
+                                    <h1 class="promo__title"><span>Volleyball</span><br>dutch ladies</h1>
+
+                                    <p class="promo__text">Digital presence of the Dutch national<br> volleyball ladies
+                                        team. </p>
+                                    <a href="" class="btn promo__link"><span><span>Lees meer</span></span></a>
+                                </div>
+
+                            </div>
+                            <!-- Main end -->
+                            <!-- Main begin -->
+                            <div class="inner-screen inner-screen--tour1">
+
+                                <div class="promo">
+                                    <h1 class="promo__title">What we did</h1>
+                                    <p class="promo__text">Tijdens de Grand Départ van de Tour de France in Rotterdam op 1 t/m 4 juli 2010 organiseerde YBBP in samenwerking met Shivers en JMR de People Villages.</p>
+                                    <p class="promo__text">Op drie verschillende locaties in de stad werden er gratis en laagdrempelige publieksevenementen georganiseerd, met als doel burgers en ondernemers actief bij het evenement te betrekken en meer sfeer en beleving in de stad te creëren. </p>
+                                </div>
+                                <a href="#secondSlide" class="scroll-icon"><span ></span></a>
+
+
+
+                            </div>
+                            <div class="inner-screen inner-screen--video">
+                                <h1 class="video-screen__title">See it for yourself</h1>
+
+                                <div class="video-screen">
+                                    <div class="video-screen-wrap">
+                                        <video id="video2" controls="controls" >
+                                            <!-- poster="img/bg-video.jpg" -->
+                                            <source src="img/warm.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+
+                                            Тег video не поддерживается вашим браузером.
+
+                                        </video>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <!-- Main end -->
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="works__item works__item_inner works__item_next" data-name="triathlon"
+                 style="z-index: 95; opacity: 0.33; transform: translateX(110%);">
+                <div class="work__item__content">
+
+                    <div class="page page--triathlon">
+                        <!-- <img src="img/bg-home-2.jpg" alt="" class="page__bg"> -->
+                        <div class="inner-screen__pager">
+                            <div class="inner-screen__pager-item active"></div>
+                            <div class="inner-screen__pager-item"></div>
+                        </div>
+                        <!-- Page header begin -->
+                        <div class="page__wrap">
+                            <!-- Main begin -->
+                            <div class="home-screen">
+
+                                <div class="promo">
+                                    <h1 class="promo__title"><span>WK world</span><br>triathlon series</h1>
+
+                                    <p class="promo__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        Sint vitae<br> laboriosam recusandae dolorum animi voluptatem eos. </p>
+                                    <a href="" class="btn promo__link"><span><span>Lees meer</span></span></a>
+                                </div>
+
+                            </div>
+                            <!-- Main end -->
+                            <!-- Main begin -->
+                            <div class="inner-screen inner-screen--tour1">
+
+                                <div class="promo">
+                                    <h1 class="promo__title">What we did</h1>
+                                    <p class="promo__text">Tijdens de Grand Départ van de Tour de France in Rotterdam op 1 t/m 4 juli 2010 organiseerde YBBP in samenwerking met Shivers en JMR de People Villages.</p>
+                                    <p class="promo__text">Op drie verschillende locaties in de stad werden er gratis en laagdrempelige publieksevenementen georganiseerd, met als doel burgers en ondernemers actief bij het evenement te betrekken en meer sfeer en beleving in de stad te creëren. </p>
+                                </div>
+                                <a href="#secondSlide" class="scroll-icon"><span ></span></a>
+
+
+
+                            </div>
+                            <div class="inner-screen inner-screen--video">
+                                <h1 class="video-screen__title">See it for yourself</h1>
+
+                                <div class="video-screen">
+                                    <div class="video-screen-wrap">
+                                        <video id="video3" controls="controls" >
+                                            <!-- poster="img/bg-video.jpg" -->
+                                            <source src="img/warm.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+
+                                            Тег video не поддерживается вашим браузером.
+                                            
+                                        </video>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <!-- Main end -->
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="works__item works__item_inner works__item_last works__item_next"
+                 data-name="atletiek"
+                 style="z-index: 94; opacity: 0.33; transform: translateX(110%); display: none;">
+                <div class="work__item__content">
+
+                    <div class="page page--atletiek">
+                        <!-- <img src="img/bg-home-2.jpg" alt="" class="page__bg"> -->
+                        <div class="inner-screen__pager">
+                            <div class="inner-screen__pager-item active"></div>
+                            <div class="inner-screen__pager-item"></div>
+                        </div>
+                        <!-- Page header begin -->
+                        <div class="page__wrap">
+                            <!-- Main begin -->
+                            <div class="home-screen">
+
+                                <div class="promo">
+                                    <h1 class="promo__title">Ek indoor<br><span>atletiek</span></h1>
+
+                                    <p class="promo__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        Praesent feugiat<br>laboriosam recusandae dolorum animi voluptatem eos. </p>
+                                    <a href="" class="btn promo__link"><span><span>Lees meer</span></span></a>
+                                </div>
+
+                            </div>
+                            <!-- Main end -->
+                            <!-- Main begin -->
+                            <div class="inner-screen inner-screen--tour1">
+
+                                <div class="promo">
+                                    <h1 class="promo__title">What we did</h1>
+                                    <p class="promo__text">Tijdens de Grand Départ van de Tour de France in Rotterdam op 1 t/m 4 juli 2010 organiseerde YBBP in samenwerking met Shivers en JMR de People Villages.</p>
+                                    <p class="promo__text">Op drie verschillende locaties in de stad werden er gratis en laagdrempelige publieksevenementen georganiseerd, met als doel burgers en ondernemers actief bij het evenement te betrekken en meer sfeer en beleving in de stad te creëren. </p>
+                                </div>
+                                <a href="#secondSlide" class="scroll-icon"><span ></span></a>
+
+
+
+                            </div>
+                            <div class="inner-screen inner-screen--video">
+                                <h1 class="video-screen__title">See it for yourself</h1>
+
+                                <div class="video-screen">
+                                    <div class="video-screen-wrap">
+                                        <video id="video4" controls="controls" >
+                                            <!-- poster="img/bg-video.jpg" -->
+                                            <source src="img/warm.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+
+                                            Тег video не поддерживается вашим браузером.
+
+                                        </video>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <!-- Main end -->
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Likes overlay -->
+            <div class="ui-likes-overlay"></div>
+            <!--/Likes overlay -->
+
+        </div>
+
+                    </div>
+        <div class="pager">
+            <i class="pager__item"></i>
+            <i class="pager__item"></i>
+            <i class="pager__item"></i>
+            <i class="pager__item"></i>
+            <i class="pager__item"></i>
+            <i class="pager__item"></i>
+            <i class="pager__item pager__item-active"></i>
+        </div>
+</div>
+
+
+
+</div>
+<!-- Frame -->
+<div class="page screen-cases-content">
+    <div class="page__wrap">
+        <div class="logo">
+            <a href=""><img src="img/logo.png" srcset="img/logo.png 2x" alt=""></a>
+        </div>
+        <!-- Close icon begin -->
+        <div class="screen-cases__close">
+            <i class="close__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="18px" height="18px" viewBox="0 0 612 612">
+                    <g>
+                        <g id="cross">
+                            <g>
+                                <polygon fill="fff" points="612,36.004 576.521,0.603 306,270.608 35.478,0.603 0,36.004 270.522,306.011 0,575.997 35.478,611.397
+                                                306,341.411 576.521,611.397 612,575.997 341.459,306.011" style=" fill: #fff"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+            </i>
+        </div>
+        <!-- Close icon end -->
+        <span class="drag-icon">Drag for more</span>
+    <div class="screen-cases">
+        
+        <div class="screen-cases-wrap">
+            <div class="owl-carousel" >
+                <div class="item item-first" data-item="1"><a href="" class="screen-cases__item">Tour de <br><span>France</span></a></div>
+                <div class="item item-second" data-item="2"><a href="" class="screen-cases__item">Major leage <br><span>baseball</span></a></div>
+                <div class="item item-third" data-item="3"><a href="" class="screen-cases__item"><span>Volleyball</span><br>dutch ladies</a></div>
+                <div class="item item-fourth" data-item="4"><a href="" class="screen-cases__item"><span>WK world</span><br>triathlon series</a></div>
+                <div class="item item-fifth" data-item="5"><a href="" class="screen-cases__item">Ek indoor<br><span>atletiek</span></a></div>
+            </div>
+        </div>
+
+    </div></div>
+</div>
+
+<!-- Page-footer begin -->
+<footer class="page__footer">
+    <!-- Soacial begin -->
+    <div class="social-links">
+        <a href="" class="social-link social-link__fb">
+            <svg id="Capa_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" height="19px" viewBox="0 0 96.124 96.123" style="enable-background:new 0 0 96.124 96.123;"	 xml:space="preserve">
+								<path fill="#fff" d="M72.089,0.02L59.624,0C45.62,0,36.57,9.285,36.57,23.656v10.907H24.037c-1.083,0-1.96,0.878-1.96,1.961v15.803		c0,1.083,0.878,1.96,1.96,1.96h12.533v39.876c0,1.083,0.877,1.96,1.96,1.96h16.352c1.083,0,1.96-0.878,1.96-1.96V54.287h14.654		c1.083,0,1.96-0.877,1.96-1.96l0.006-15.803c0-0.52-0.207-1.018-0.574-1.386c-0.367-0.368-0.867-0.575-1.387-0.575H56.842v-9.246 		c0-4.444,1.059-6.7,6.848-6.7l8.397-0.003c1.082,0,1.959-0.878,1.959-1.96V1.98C74.046,0.899,73.17,0.022,72.089,0.02z"/>
+							</svg>
+        </a>
+        <a href="" class="social-link social-link__tw">
+            <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 0 32 32">
+                <path fill="#fff"
+                      d="M32 6.076c-1.177 0.522-2.443 0.875-3.771 1.034 1.355-0.813 2.396-2.099 2.887-3.632-1.269 0.752-2.674 1.299-4.169 1.593-1.198-1.276-2.904-2.073-4.792-2.073-3.626 0-6.565 2.939-6.565 6.565 0 0.515 0.058 1.016 0.17 1.496-5.456-0.274-10.294-2.888-13.532-6.86-0.565 0.97-0.889 2.097-0.889 3.301 0 2.278 1.159 4.287 2.921 5.465-1.076-0.034-2.088-0.329-2.974-0.821-0.001 0.027-0.001 0.055-0.001 0.083 0 3.181 2.263 5.834 5.266 6.437-0.551 0.15-1.131 0.23-1.73 0.23-0.423 0-0.834-0.041-1.235-0.118 0.835 2.608 3.26 4.506 6.133 4.559-2.247 1.761-5.078 2.81-8.154 2.81-0.53 0-1.052-0.031-1.566-0.092 2.905 1.863 6.356 2.95 10.064 2.95 12.076 0 18.679-10.004 18.679-18.68 0-0.285-0.006-0.568-0.019-0.849 1.283-0.926 2.396-2.082 3.276-3.398z"></path>
+            </svg>
+        </a>
+        <a href="" class="social-link social-link__yt">
+            
+            <svg height="30px" viewBox="0 0 55 50" xmlns="http://www.w3.org/2000/svg">
+                <g fill="none" fill-rule="evenodd" id="black" stroke="none" stroke-width="1">
+                <g id="slice" transform="translate(-500.000000, -100.000000)"/>
+                <g fill="#fff" id="youtube" transform="translate(10.000000, 16.000000)">
+                <path d="M38.7915918,6.76160896 C38.7915918,6.76160896 38.4166292,4.11897479 37.2666018,2.95488634 C35.8089347,1.42776592 34.1740125,1.42052232 33.4245134,1.33104261 C28.0582872,0.942871094 20.0085219,0.942871094 20.0085219,0.942871094 L19.9914781,0.942871094 C19.9914781,0.942871094 11.9421389,0.942871094 6.57548658,1.33104261 C5.82598746,1.42052232 4.19191748,1.42776592 2.73339817,2.95488634 C1.58337082,4.11897479 1.2092604,6.76160896 1.2092604,6.76160896 C1.2092604,6.76160896 0.825775918,9.86485061 0.825775918,12.9680923 L0.825775918,15.8778873 C0.825775918,18.9807028 1.2092604,22.0839445 1.2092604,22.0839445 C1.2092604,22.0839445 1.58337082,24.7265786 2.73339817,25.8906671 C4.19191748,27.4182136 6.10806161,27.3692128 6.96152762,27.5294241 C10.0298296,27.823855 20,27.9150391 20,27.9150391 C20,27.9150391 28.0582872,27.9026823 33.4245134,27.5149369 C34.1740125,27.4254572 35.8089347,27.4182136 37.2666018,25.8906671 C38.4166292,24.7265786 38.7915918,22.0839445 38.7915918,22.0839445 C38.7915918,22.0839445 39.1742241,18.9807028 39.1742241,15.8778873 L39.1742241,12.9680923 C39.1742241,9.86485061 38.7915918,6.76160896 38.7915918,6.76160896 Z M16.0411619,19.4029619 L16.0394575,8.6283262 L26.4012082,14.0341791 L16.0411619,19.4029619 Z" id="Fill-195"/>
+                </g>
+                </g>
+            </svg>
+        </a>
+
+    </div>
+    <!-- Social end -->    
+
+    <div class="cases">
+        <span class="cases__text">see all cases</span>
+
+        <div class="cases__icon">
+            <i class="cases__icon-rect cases__icon-rect-1"></i>
+            <i class="cases__icon-rect cases__icon-rect-2"></i>
+            <i class="cases__icon-rect cases__icon-rect-3"></i>
+        </div>
+    </div>
+
+</footer>
+<!-- Page footer end -->
+<div class="menu-page">
+    <div class="menu-page__wrap">
+        <div class="menu-page__inner" id="menu-page__inner-div">
+            <a href="" class="menu-page__link" id="who_we_are">
+                <h2 class="menu-page__link-promo">Who <br>we <br>are</h2>
+                <h3 class="menu-page__link-title">Meet the team</h3>
+                <p class="menu-page__link-text">Find out more about who we <br>are and how we got here.</p>
+            </a>
+            <a href="" class="menu-page__link" id="what_we_do">
+                <h2 class="menu-page__link-promo">What <br>we <br>do</h2>
+                <h3 class="menu-page__link-title">Our servies</h3>
+                <span class="menu-page__link-text">Discover our line of services<br> and how we can help you.</span>
+            </a>
+            <a href="" class="menu-page__link" id="contact">
+                <h2 class="menu-page__link-promo">Let's <br>get in <br>contact</h2>
+                <h3 class="menu-page__link-title">Contact us</h3>
+                <span class="menu-page__link-text">Let’s get together and discuss <br>your next big event.</span>
+            </a>
+
+        </div>
+        <div class="contact" id="contact-div" style="display: none">
+            <div class="contact__wrap">
+                <div class="contact__header">
+                    <div class="contact__block">
+                        <h1 class="contact__title">Let's <br>get in contact</h1>
+                    </div>
+                    <div class="contact__block">
+                        <h2 class="contact__promo-title">Contact</h2>
+                        <p class="contact__promo-text">YBBP is gevestigd in de creatieve en inspirerende omgeving van het artdeco pand van Artbox in Amsterdam.</p>
+                        <p class="contact__promo-text">Artbox is al 30 jaar een succesvol intermediair / agentschap voor reclame- en designbureaus voor de ontwikkeling van campagnebeeld. YBBP en Artbox vinden elkaar op het vlak van design en sport.</p>
+                    </div>
+                    <div class="contact__block contact__block--address">
+                        <div class="contact__item contact__item--addr">
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="27px" viewBox="0 0 491.582 491.582">
+                                    <path d="M245.791,0C153.799,0,78.957,74.841,78.957,166.833c0,36.967,21.764,93.187,68.493,176.926
+													c31.887,57.138,63.627,105.4,64.966,107.433l22.941,34.773c2.313,3.507,6.232,5.617,10.434,5.617s8.121-2.11,10.434-5.617
+													l22.94-34.771c1.326-2.01,32.835-49.855,64.967-107.435c46.729-83.735,68.493-139.955,68.493-176.926
+													C412.625,74.841,337.783,0,245.791,0z M322.302,331.576c-31.685,56.775-62.696,103.869-64.003,105.848l-12.508,18.959
+													l-12.504-18.954c-1.314-1.995-32.563-49.511-64.007-105.853c-43.345-77.676-65.323-133.104-65.323-164.743
+													C103.957,88.626,167.583,25,245.791,25s141.834,63.626,141.834,141.833C387.625,198.476,365.647,253.902,322.302,331.576z"/>
+                                    <path d="M245.791,73.291c-51.005,0-92.5,41.496-92.5,92.5s41.495,92.5,92.5,92.5s92.5-41.496,92.5-92.5
+													S296.796,73.291,245.791,73.291z M245.791,233.291c-37.22,0-67.5-30.28-67.5-67.5s30.28-67.5,67.5-67.5
+													c37.221,0,67.5,30.28,67.5,67.5S283.012,233.291,245.791,233.291z"/>
+                                </svg>
+                            </i>
+                            <div>Kruislaan 182 <br> 1098 SK Amsterdam, NL</div></div>
+                        <div class="contact__item">
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" viewBox="0 0 202.592 202.592" >
+                                    <path style="fill:#010002;" d="M198.048,160.105l-31.286-31.29c-6.231-6.206-16.552-6.016-23.001,0.433l-15.761,15.761
+												c-0.995-0.551-2.026-1.124-3.11-1.732c-9.953-5.515-23.577-13.074-37.914-27.421C72.599,101.48,65.03,87.834,59.5,77.874
+												c-0.587-1.056-1.145-2.072-1.696-3.038l10.579-10.565l5.2-5.207c6.46-6.46,6.639-16.778,0.419-23.001L42.715,4.769
+												c-6.216-6.216-16.541-6.027-23.001,0.433l-8.818,8.868l0.243,0.24c-2.956,3.772-5.429,8.124-7.265,12.816
+												c-1.696,4.466-2.752,8.729-3.235,12.998c-4.13,34.25,11.52,65.55,53.994,108.028c58.711,58.707,106.027,54.273,108.067,54.055
+												c4.449-0.53,8.707-1.593,13.038-3.275c4.652-1.818,9.001-4.284,12.769-7.233l0.193,0.168l8.933-8.747
+												C204.079,176.661,204.265,166.343,198.048,160.105z M190.683,176.164l-3.937,3.93l-1.568,1.507
+												c-2.469,2.387-6.743,5.74-12.984,8.181c-3.543,1.364-7.036,2.24-10.59,2.663c-0.447,0.043-44.95,3.84-100.029-51.235
+												C14.743,94.38,7.238,67.395,10.384,41.259c0.394-3.464,1.263-6.95,2.652-10.593c2.462-6.277,5.812-10.547,8.181-13.02l5.443-5.497
+												c2.623-2.63,6.714-2.831,9.112-0.433l31.286,31.286c2.394,2.401,2.205,6.492-0.422,9.13L45.507,73.24l1.95,3.282
+												c1.084,1.829,2.23,3.879,3.454,6.106c5.812,10.482,13.764,24.83,29.121,40.173c15.317,15.325,29.644,23.27,40.094,29.067
+												c2.258,1.249,4.32,2.398,6.17,3.5l3.289,1.95l21.115-21.122c2.634-2.623,6.739-2.817,9.137-0.426l31.272,31.279
+												C193.5,169.446,193.31,173.537,190.683,176.164z"/>
+                                </svg>
+                            </i>
+                            <div>
+                                <a href="tel:+31204635797"><span>T:</span>+31 20 463 57 97</a><br>
+                                <a href="tel:+31206939907"><span>F:</span>+31 20 693 99 07</a>
+                            </div>
+                        </div>
+                        <div class="contact__item contact__item--mail">
+                            <i>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20px" viewBox="0 0 485.411 485.411">
+                                    <path style="fill:#010002;" d="M0,81.824v321.763h485.411V81.824H0z M242.708,280.526L43.612,105.691h398.187L242.708,280.526z
+		 										M163.397,242.649L23.867,365.178V120.119L163.397,242.649z M181.482,258.533l61.22,53.762l61.22-53.762L441.924,379.72H43.487
+												L181.482,258.533z M322.008,242.655l139.535-122.536v245.059L322.008,242.655z"/>
+                                </svg>
+                            </i>
+                            <div>
+                                <a href="mailto:info@ybbp.nl">info@ybbp.nl</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                    <div id="contact__map"><!-- <iframe width='100%' height='500px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/dmitriyntadev.o630o6jo/attribution.html?access_token=pk.eyJ1IjoiZG1pdHJpeW50YWRldiIsImEiOiIyZDhlNjczOTZiMGJkMzM3Nzk1NGIxMWVhNTYwMDA0NCJ9.yEcYoufLxGaOx_7fXw_eAw'></iframe> --></div>
+
+
+                <footer class="inner-page__footer">
+                    <div class="inner-page__footer-links">
+                        <a href="" class="terms-link">Terms & conditions</a>
+                        <a href="" class="active">Contact</a>
+                    </div>
+
+                    <a href="" class="inner-page__footer-copyright">
+                        Powered by
+                        <span>New tribe agency</span>
+                    </a>
+                </footer>
+
+            </div>
+        </div>
+        <!-- Terms begin -->
+        <div class="terms" id="terms-div" style="display: none">
+            <div class="terms__wrap">
+                <div class="terms__header">
+                    <h1 class="terms__title">Terms <br>& conditions</h1>
+                </div>
+                <h2 class="terms__title">First chapter</h2>
+                <div class="terms__block">
+                    <p class="terms__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint et suscipit officia esse laboriosam soluta illum molestiae repudiandae, placeat similique reiciendis vel autem quod consequatur laborum impedit fuga voluptatem perferendis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam officia, ea vero neque libero ab, doloribus quisquam at aut tenetur, facere magni hic culpa? Velit qui pariatur harum reiciendis vel. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, illo sed quo ipsum quod, repudiandae nihil omnis. Eveniet, distinctio recusandae pariatur suscipit impedit natus, ullam blanditiis excepturi hic dolorem et?</p>
+
+                    <p class="terms__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus neque assumenda obcaecati nostrum. Corrupti enim, officia ipsa voluptas, pariatur reiciendis magnam labore, accusamus atque inventore dolor odit quo nesciunt, eos! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur in nihil vitae veritatis a vero expedita pariatur, non ipsam. Debitis cum maiores optio doloremque. Inventore libero veniam cum voluptate laudantium!</p>
+                </div>
+                <h2 class="terms__title">Second chapter</h2>
+                <div class="terms__block">
+                    <p class="terms__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe culpa autem cum consequuntur perspiciatis eius in, nemo animi. Consequatur tempore animi aperiam reiciendis assumenda vitae, unde quos qui necessitatibus deserunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, pariatur, est quibusdam, ut molestias inventore fuga doloremque facilis voluptas ipsam eum quisquam sit corporis quod. Eaque voluptatum architecto molestiae pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero nihil possimus, tempora beatae, optio nesciunt vitae! Non ratione tenetur minus. Eum, culpa. Incidunt voluptates, rerum velit eligendi saepe, suscipit soluta.</p>
+                    <p class="terms__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem earum accusantium omnis corrupti commodi animi maiores maxime nostrum consequatur suscipit, odit facere, eos dicta optio est et quam soluta repudiandae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut illum est, necessitatibus quae rerum et sunt cum ratione quibusdam incidunt aliquam blanditiis hic iusto dolores recusandae sit, itaque laboriosam consequuntur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quibusdam ipsam qui! Eveniet cupiditate quis, maxime distinctio atque adipisci harum nisi officiis fugiat esse accusantium praesentium modi, dolorum tempore a! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita cumque iure, vero ratione beatae, minus veritatis rem id tempore eaque porro recusandae, autem voluptas maiores eos. Consequuntur ullam dolore suscipit.</p>
+                    <p class="terms__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur maiores, est fuga, ut optio quo quisquam excepturi architecto enim, blanditiis dicta! Culpa quos, fuga aliquam odio asperiores inventore? Amet, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus dolorem incidunt maiores doloremque veniam deleniti aliquid quas voluptas laborum ipsum, debitis, sint quae praesentium nisi aliquam? Excepturi dolorem error mollitia.</p>
+
+                    <p class="terms__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore repudiandae laborum eligendi, accusamus temporibus in, quam nostrum, aspernatur ea aliquid non tempore veritatis officiis. Earum voluptatum fugiat reiciendis facere, vero. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis recusandae incidunt laborum accusantium eius doloribus esse quam ullam hic modi, quibusdam natus temporibus eveniet. Dolores eaque maxime at recusandae ea! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat iusto quisquam, blanditiis possimus totam eligendi error, architecto consequatur, odio ipsum facere animi et recusandae deserunt cumque a molestiae ex odit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit iure nam neque obcaecati a voluptate quos nesciunt eligendi deleniti, officia incidunt temporibus fugit aliquid repellat voluptatem adipisci ut quis ex.</p>
+                    <p class="terms__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat quibusdam rerum praesentium ipsum cupiditate commodi doloribus, quidem culpa saepe illo, est provident. Perferendis esse sit necessitatibus, perspiciatis sint. Laborum, quisquam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum cumque, libero modi, rem eligendi aliquid beatae, vel eos veniam animi debitis, ipsa deleniti repellat odit veritatis officiis? Quidem, iste, harum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. .</p>
+                    <p class="terms__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus facilis, a. Voluptatem commodi explicabo voluptatum consequatur enim qui, illum dolores iusto rem eum voluptate fuga saepe! Atque, aspernatur, rem. Doloremque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias praesentium ad eius delectus adipisci, possimus! Maiores officiis, soluta, libero dolor sint aut nisi vitae ipsa veritatis exercitationem, rerum accusamus et. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus modi qui quisquam eum corrupti, laboriosam id mollitia. Eaque delectus laudantium deserunt, aperiam</p>
+                </div>
+
+            </div>
+
+            <footer class="inner-page__footer">
+                <div class="inner-page__footer-links">
+                    <a href="" class="active terms-link">Terms & conditions</a>
+                    <a href="" class="">Contact</a>
+                </div>
+
+                <a href="" class="inner-page__footer-copyright">
+                    Powered by
+                    <span>New tribe agency</span>
+                </a>
+            </footer>
+        </div>
+        <!-- Terms end -->
+        <div id="what_we_do-div" style="display: none">
+
+            <!-- Inner page header begin -->
+            <div class="inner-page__header inner-page__header--do">
+                <div class="inner-page__header-wrap inner-page__header-wrap--do">
+                    <div class="inner-page__header-top">
+                        <h1 class="inner-page__title">What<br> we<br> do</h1>
+                        <div class="inner-page__promo">
+                            <h2 class="inner-page__promo-title">Managment in <br>sport events</h2>
+                            <p class="inner-page__promo-text">Ronald Buijs startte YBBP in 2007 na zijn jaren als General Manager bij de Amsterdam Admirals (NFL Europe) en Sr. Consultant bij IMG. YBBP bouwt sterke merken in de sport; van teams tot stadions, van bid tot evenement, van merkstrategie tot activering.</p>
+                            <p class="inner-page__promo-text">Geen vrijblijvende adviezen, maar onderbouwde concepten en strategieën waar opvolging aan wordt gegeven.</p>
+                        </div>
+                    </div>
+                    <div id="scroll-link" class="inner-page__header-link">
+                        <a href="#scroll-sect" class="btn inner-page__link-down"><span><span>Lees meer</span></span></a>
+                    </div>
+                    
+                </div>
+            </div>
+            <!-- Inner page header end -->
+
+            <div id="scroll-sect" class="scrolled-block">
+                <!-- Concept begin -->
+                <section class="page-section page-section--slide concept">
+                    <img class="page-section--slide-bg" src="img/bg-whatwedo-pic.jpg" alt="">
+                    <h2 class="page-section__title">Concept & strategie</h2>
+                    <p class="page-section__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto enim dignissimos aliquam ratione dolore, impedit error quas modi molestiae ex, animi omnis nulla similique? Et laboriosam qui repellat esse molestias?</p>
+                    <p class="page-section__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. dolore, impedit error quas modi molestiae ex, animi omnis nulla similique? Et laboriosam qui repellat esse molestias?</p>
+                </section>
+                <!-- Concept end -->
+
+                <!-- Concept begin -->
+                <section class="page-section page-section--slide page-section--white project">
+                    <img class="page-section--slide-bg" src="img/bg-whatwedo-hand.jpg" alt="">
+                    <h2 class="page-section__title">Projectmanagement</h2>
+                    <p class="page-section__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto enim dignissimos aliquam ratione dolore, impedit error quas modi molestiae ex, animi omnis nulla similique? Et laboriosam qui repellat esse molestias?</p>
+                    <p class="page-section__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. dolore, impedit error quas modi molestiae ex, animi omnis nulla similique? Et laboriosam qui repellat esse molestias?</p>
+                </section>
+                <!-- Concept end -->
+
+                <!-- Concept begin -->
+                <section class="page-section page-section--slide sport">
+                    <img class="page-section--slide-bg" src="img/bg-whatwedo-watch.jpg" alt="">
+                    <h2 class="page-section__title">Sportmanagement</h2>
+                    <p class="page-section__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto enim dignissimos aliquam ratione dolore, impedit error quas modi molestiae ex, animi omnis nulla similique? Et laboriosam qui repellat esse molestias?</p>
+                    <p class="page-section__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. dolore, impedit error quas modi molestiae ex, animi omnis nulla similique? Et laboriosam qui repellat esse molestias?</p>
+                </section>
+                <!-- Concept end -->
+
+                <footer class="inner-page__footer">
+                    <div class="inner-page__footer-links">
+                        <a href="" class="terms-link">Terms & conditions</a>
+                        <a href="" class="">Contact</a>
+                    </div>
+
+                    <a href="" class="inner-page__footer-copyright">
+                        Powered by
+                        <span>New tribe agency</span>
+                    </a>
+                </footer>
+            </div>
+            
+            <!-- Inner page end -->
+        </div>
+        <div id="who_we_are-div" style="display: none">
+            <!-- Inner page header begin -->
+            <div class="inner-page__header">
+                <div class="inner-page__header-wrap">
+                    <div class="inner-page__header-top">
+                        <h1 class="inner-page__title">Who we are</h1>
+                        <div class="inner-page__promo">
+                            <h2 class="inner-page__promo-title">Sports in business</h2>
+                            <p class="inner-page__promo-text">Ronald Buijs startte YBBP in 2007 na zijn jaren als General Manager bij de Amsterdam Admirals (NFL Europe) en Sr. Consultant bij IMG. YBBP bouwt sterke merken in de sport; van teams tot stadions, van bid tot evenement, van merkstrategie tot activering.</p>
+                            <p class="inner-page__promo-text">Geen vrijblijvende adviezen, maar onderbouwde concepten en strategieën waar opvolging aan wordt gegeven.</p>
+                        </div>
+                    </div>
+                    <div id="scroll-link2" class="inner-page__header-link">
+                        <a href="#scroll-sect2" class="btn inner-page__link-down"><span><span>Lees meer</span></span></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Inner page header end -->
+
+            <div  id="scroll-sect2" class="scrolled-block"><!-- Partners begin -->
+                <section class="page-section partners">
+                    <h2 class="partners__title">Partners</h2>
+                    <ul class="partners__list">
+                        <li class="partners__item"><a href="">
+                            <div class="partners__item-img">
+                                <img src="img/logo-partner-artbox.png" alt="">
+                            </div>
+                            <p class="partners__item-text">Artbox &gt; centre for creation (opgericht 1976) heeft de reputatie als leverancier van top kwaliteit creatief 'artwork' en wordt beschouwd als een betrouwbare partner wereldwijd.</p>
+                        </a></li>
+                        <li class="partners__item"><a href="">
+                            <div class="partners__item-img">
+                                <img src="img/logo-partner-shivers.png" alt="">
+                            </div>
+                            <p class="partners__item-text">Shivers is er voor merken. Voor actieve merken die weten waar ze voor staan en dit met impact over willen brengen. Op consumenten, relaties of eigen personeel. Shivers helpt met het activeren van de boodschap en geeft hierbij het merk gevoel.</p>
+                        </a></li>
+                        <li class="partners__item"><a href="">
+                            <div class="partners__item-img">
+                                <img src="img/logo-partner-newtribe.png" alt="">
+                            </div>
+                            <p class="partners__item-text">New Tribe Agency is our digital partner for Europe and Latin America. As a full service agency, New Tribe helps us develop the apps and web platforms we need in our campaigns.</p>
+                        </a></li>
+                    </ul>
+                </section>
+                <!-- Partners end -->
+                <!-- Events begin -->
+                <section class="page-section events">
+                    <h2 class="events__title">Major sports <br>events</h2>
+                    <p class="events__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto enim dignissimos aliquam ratione dolore, impedit error quas modi molestiae ex, animi omnis nulla similique? Et laboriosam qui repellat esse molestias?</p>
+                </section>
+                <!-- Events end -->
+                <!-- Clients begin -->
+                <section class="page-section clients">
+                    <h2 class="clients__title">Some of our clients</h2>
+                    <ul class="clients__list">
+                        <li class="clients__item">
+                            <a href=""><img src="img/logo-client-fifa.png" alt=""></a>
+                        </li>
+                        <li class="clients__item">
+                            <a href=""><img src="img/logo-client-tour.png" alt=""></a>
+                        </li>
+                        <li class="clients__item">
+                            <a href=""><img src="img/logo-client-baseball.png" alt=""></a>
+                        </li>
+                        <li class="clients__item">
+                            <a href=""><img src="img/logo-client-cev.png" alt=""></a>
+                        </li>
+                    </ul>
+                </section>
+                <!-- Clients end --></div>
+            <footer class="inner-page__footer">
+                <div class="inner-page__footer-links">
+                    <a href="" class="terms-link">Terms & conditions</a>
+                    <a href="" class="">Contact</a>
+                </div>
+
+                <a href="" class="inner-page__footer-copyright">
+                    Powered by
+                    <span>New tribe agency</span>
+                </a>
+            </footer>
+        </div>
+        <!-- Close icon begin -->
+        <div class="menu-page__close" id="menu-page__close">
+            <i class="close__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="18px" height="18px" viewBox="0 0 612 612">
+                    <g>
+                        <g id="cross">
+                            <g>
+                                <polygon points="612,36.004 576.521,0.603 306,270.608 35.478,0.603 0,36.004 270.522,306.011 0,575.997 35.478,611.397
+												306,341.411 576.521,611.397 612,575.997 341.459,306.011 			"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+            </i>
+        </div>
+        <!-- Close icon end -->
+        <!-- Arrow icon begin -->
+        <div class="menu-page__arrow" id="menu-page__arrow">
+            <i class="arrow__icon">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 196.665 196.665" width="25px">
+                    <g>
+                        <g>
+                            <polygon style="fill:#010002;" points="196.665,94.72 13.836,94.72 69.419,39.137 64.308,34.026 0,98.331 64.308,162.639 
+                                69.419,157.536 13.832,101.942 196.665,101.942       "/>
+                        </g>
+                    </g>
+                </svg> -->
+                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     width="25px" height="25px" viewBox="0 0 400.004 400.004" style="enable-background:new 0 0 400.004 400.004;"
+     xml:space="preserve">
+<g>
+    <path d="M382.688,182.686H59.116l77.209-77.214c6.764-6.76,6.764-17.726,0-24.485c-6.764-6.764-17.73-6.764-24.484,0L5.073,187.757
+        c-6.764,6.76-6.764,17.727,0,24.485l106.768,106.775c3.381,3.383,7.812,5.072,12.242,5.072c4.43,0,8.861-1.689,12.242-5.072
+        c6.764-6.76,6.764-17.726,0-24.484l-77.209-77.218h323.572c9.562,0,17.316-7.753,17.316-17.315
+        C400.004,190.438,392.251,182.686,382.688,182.686z"/>
+</g>
+</svg>
+
+
+            </i>
+        </div>
+        <!-- Arrow icon end -->
+    </div>
+</div>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="js/jquery.touchwipe.min.js"></script>
+<script src="js/libs.js"></script>
+<script src="js/common.js"></script>
+<script src="js/modules.js"></script>
+<script src="js/plugins.js"></script>
+
+<script>site.works.items = {
+    "index-1": {}, "index-2": {}, "index-21": {}, "index-3": {}, "index-4": {}, "index-5": {}, "index-6": {}
+
+
+}</script>
+<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>

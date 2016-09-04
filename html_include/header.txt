@@ -1,0 +1,10 @@
+<header class="page__header">
+	<div class="logo">
+		<img src="img/logo.png" srcset="img/logo.png 2x" alt="">			
+	</div>
+	<div class="menu">
+		<i class="menu__line menu__line-1"></i>
+		<i class="menu__line menu__line-2"></i>
+		<i class="menu__line menu__line-3"></i>
+	</div>
+</header>
